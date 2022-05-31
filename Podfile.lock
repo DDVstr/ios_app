@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: 03a0fdca794a74ab0d4eec50f69073bfa05ea3ce
+PODS:
+  - Alamofire (5.6.1)
+  - Kingfisher (7.2.2)
+  - TinyConstraints (4.0.2)
 
-COCOAPODS: 1.11.2
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  Kingfisher: 184d4d1a8c36666e663caf8e08abe87898595c53
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: 5510ae0db4c96bf517d104633de6b9089df5dfd5
+
+COCOAPODS: 1.11.3

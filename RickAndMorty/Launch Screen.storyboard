@@ -5,6 +5,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,16 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="zPH-CX-nHa">
-                                <rect key="frame" x="71" y="278.33333333333337" width="233.33333333333337" height="265.33333333333337"/>
+                                <rect key="frame" x="71.000000000000014" y="278.33333333333337" width="233.33333333333337" height="265.33333333333337"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2981240-modified" translatesAutoresizingMaskIntoConstraints="NO" id="VHS-z6-R7G">
+                                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2981240-modified" translatesAutoresizingMaskIntoConstraints="NO" id="VHS-z6-R7G">
                                         <rect key="frame" x="20.666666666666671" y="0.0" width="192" height="192"/>
+                                        <color key="backgroundColor" red="0.39250926949999998" green="0.76269483410000005" blue="0.76942896839999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rick and Morty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSA-gr-w7Z">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rick and Morty" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSA-gr-w7Z">
                                         <rect key="frame" x="0.0" y="226" width="233.33333333333334" height="39.333333333333314"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="36"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <color key="shadowColor" systemColor="labelColor"/>
+                                        <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
                                 </subviews>
                             </stackView>
@@ -47,5 +51,8 @@
     </scenes>
     <resources>
         <image name="2981240-modified" width="192" height="192"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

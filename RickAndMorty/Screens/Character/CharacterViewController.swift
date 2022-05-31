@@ -27,9 +27,10 @@ final class CharacterViewController: UIViewController {
         //creating search controller
         let searchController = UISearchController()
         view.backgroundColor = .white
-        
         title = "Search"
+        
         navigationItem.searchController = searchController
+        
         
 
         setupUI()

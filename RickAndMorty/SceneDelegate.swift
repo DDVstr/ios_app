@@ -2,10 +2,11 @@
 //  SceneDelegate.swift
 //  RickAndMorty
 //
-//  Created by Alexander Shchavrovskiy on 22.04.2022.
+//  Created by Zhornichenko Ilya on 30.05.2022.
 //
 
 import UIKit
+import SwiftUI
 
 
 
