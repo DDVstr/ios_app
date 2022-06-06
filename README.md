@@ -18,30 +18,36 @@ Rick and Morty application
 
 ## Description
 
-- A simple food timer app for typical breakfast foods! 
+- A Rick and Morty UI application displaying all characters
 
-- Each item has their own methods of cooking and cook times will vary depending on your preferred choice of doneness
-
-- Alerts user when item is done by using User Notifications
+- Each character has its own prescription 
 
 - Project was completed using 100% programmatic UI (No Storyboard)
 
-- MVC design pattern
+- Search bar to find more precisely
+
 
 
 ## How To Use
 
-- Clone the project and run it on Xcode 12 or above
-- Also available on the Apple Appstore: https://apps.apple.com/us/app/dinertimer/id1550181756
+- Clone the project and run it on Xcode 13 or above
+
+- Change your bundle identifier
 ---
 
 ## Frameworks
 
 - UIKit
-- AVFoundation
+- SwiftUI
+- REST api
 - UserNotifications
-- NotificationCenter
 - Core Animation
 - Core Graphics
+
+---
+## Prescriptions
+
+- To pod install packages on macos Silicon you have to change your terminal deployment to Rosseta
+- Copy Terminal and change option to Rosseta kernel
 
 [Back To The Top](#RickandMorty)
