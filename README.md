@@ -4,8 +4,7 @@ Rick and Morty application
 
 ### Screen Shots
 
-
-
+<img src="/for_assets/frame.png" width="600" height="490">
 ---
 
 ### Table of Contents
