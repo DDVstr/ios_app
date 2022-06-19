@@ -2,39 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Sources/RickAndMortyAPI">
+      location = "group:RickAndMorty.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Sources/EpisodeDetail">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/LocationDetail">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/SwiftUtils">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/SwiftUIUtils">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/Filters">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/Domain">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/Network">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/CharacterDetail">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/CharacterList">
-   </FileRef>
-   <FileRef
-      location = "group:Sources/LocationList">
-   </FileRef>
-   <FileRef
-      location = "group:App/RickAndMorty/RickAndMorty.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
