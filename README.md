@@ -4,7 +4,7 @@ Rick and Morty application
 
 ### Screen Shots
 
-<img src="/for_assets/image.png">
+<img src="/for_assets/Frame1_1.png">
 
 
 ---
